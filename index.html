@@ -8,87 +8,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Josefin+Sans:wght@400;700&family=Montserrat:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css"> 
+    <link rel="stylesheet" href="./assets/styles/style.css"> 
 </head>
 <body>
-    
+
     <main class="principal">
-        <header class="cabecalho__container">
+        <header class="cabecalho_container">
             <div class="cabecalho">
-                <h1 class="cabecalho__titulo">Notificações</h1>
-                <span class="cabecalho__numero">3</span>
-                <span class="cabecalho__texto">Marcar tudo como lido</span>
+                <h1 class="cabecalho_titulo">Notificações</h1>
+                <span class="cabecalho_numero">3</span>
+                <span class="cabecalho_texto">Marcar tudo como lido</span>
             </div>
         </header>
-        <section class="notificacao">
+
+        <section class="notificacao_recente">
             <div>
-            <img src="img/foto1.webp" alt="foto de pessoa" class="foto" width="54px"/>
+                <img src="./assets/img/foto1.webp" alt="foto de pessoa" class="foto" width="32px"/>
             </div>
             <div class="notificacao_conteudo">
-            <p><span class="notificacao_nome">Marcos Silva</span>reagiu ao seu post<span>Meu primeiro dia de trabalho</span></p>
-            <p>Hoje</p>
+                <p><span class="notificacao_nome">Marcos Silva</span>
+                <span class="notificacao_reação">reagiu ao seu post</span>
+                <span class="notificacao_post">Meu primeiro dia de trabalho</span></p>
+                <p class="notificacao_tempo">Hoje</p>
+            </div>
+        </section>
+        
+        <section class="notificacao_recente">
+            <div>
+                <img src="./assets/img/foto2.webp" alt="foto de pessoa" class="foto" width="32px"/>
+            </div>
+            <div class="notificacao_conteudo">
+                <p><span class="notificacao_nome">Mariana Reis</span>
+                <span class="notificacao_reação">seguiu você</span></p>
+                <p class="notificacao_tempo">Ontem</p>
+            </div>
+        </section>
+
+        <section class="notificacao_recente">
+            <div>
+                <img src="./assets/img/foto3.webp" alt="foto de pessoa" class="foto" width="32px"/>
+            </div>
+            <div class="notificacao_conteudo">
+                <p><span class="notificacao_nome">Ricardo Oliveira</span>
+                <span class="notificacao_reação">entrou no seu grupo</span>
+                <span class="notificacao_clube">Clube de Xadrez</span></p>
+                <p class="notificacao_tempo">Há 3 dias</p>
+            </div>
+        </section>
+
+        <section class="notificacao">
+            <div>
+                <img src="./assets/img/foto4.webp" alt="foto de pessoa" class="foto_jose" width="32px"/>
+            </div>
+            <div class="notificacao_conteudo">
+                <p><span class="notificacao_nome">José Garcia</span>
+                <span class="notificacao_reação">te mandou mensagem</span></p>
+                <p class="notificacao_tempo">Há 1 semana</p>
+                <p class="notificacao_texto">Olá, obrigado por me aceitar em seu clube de xadrez, jogo desde os meus 10 anos, <br> já participei de algumas competições. Espero conseguir jogar uma partida com você.</p>
+            </div>
+        </section>
+
+        <section class="notificacao_xadrez">
+            <div class="notificacao_container">
+                <img src="./assets/img/foto5.webp" alt="foto de pessoa" class="foto_clarisse" width="32px"/>
+            </div>
+            <div class="notificacao_conteudo">
+                <p><span class="notificacao_nome">Clarisse dos Santos</span>
+                <span class="notificacao_reação">comentou em sua foto</span></p>
+                <p class="notificacao_tempo-xadrez">Há 9 dias</p>
+            </div>
+                <img src="./assets/img/xadrez.webp" alt="menina jogando xadrez" class="foto_xadrez" width="32px"/>
+        </section>
+
+        <section class="notificacao">
+            <div>
+                <img src="./assets/img/foto6.webp" alt="foto de pessoa" class="foto" width="32px"/>
+            </div>
+            <div class="notificacao_conteudo">
+                <p><span class="notificacao_nome">Bruno Pereira</span>
+                <span class="notificacao_reação">reagiu ao seu post</span>
+                <span class="notificacao_post">5 estratégias de para vencer uma partida de xadrez</span></p>
+                <p class="notificacao_tempo">Há 2 semanas</p>
             </div>
         </section>
         
         <section class="notificacao">
             <div>
-            <img src="img/foto2.webp" alt="foto de pessoa" class="foto" width="54px"/>
+                <img src="./assets/img/foto7.webp" alt="foto de pessoa" class="foto" width="32px"/>
             </div>
             <div class="notificacao_conteudo">
-            <p><span class="notificacao_nome">Mariana Reis</span>seguiu você</p>
-            <p>Ontem</p>
-            </div>
-        </section>
-
-        <section class="notificacao">
-            <div>
-            <img src="img/foto3.webp" alt="foto de pessoa" class="foto" width="54px"/>
-            </div>
-            <div class="notificacao_conteudo">
-            <p><span class="notificacao_nome">Ricardo Oliveira</span>entrou no seu grupo<span>Clube de Xadrez</span></p>
-            <p>Há 3 dias</p>
-            </div>
-        </section>
-
-        <section class="notificacao">
-            <div>
-            <img src="img/foto4.webp" alt="foto de pessoa" class="foto" width="54px"/>
-            </div>
-            <div class="notificacao_conteudo">
-            <p><span class="notificacao_nome">José Garcia</span>te mandou mensagem</p>
-            <p>Olá, obrigado por me aceitar em seu clube de xadrez, jogo desde os meus 10 anos, <br> já participei de algumas competições. Espero conseguir jogar uma partida com você.</p>
-            <p>Há 1 semana</p>
-            </div>
-        </section>
-
-        <section class="notificacao">
-            <div>
-            <img src="img/foto5.webp" alt="foto de pessoa" class="foto" width="54px"/>
-            <img src="img/xadrez.webp" alt="foto de menina jogando xadrez" class="foto__xadrez" width="54px">
-            </div>
-            <div class="notificacao_conteudo">
-            <p><span class="notificacao_nome">Clarisse dos Santos</span>comentou em sua foto</p>
-            <p>Há 9 dias</p>
-            </div>
-        </section>
-
-        <section class="notificacao">
-            <div>
-            <img src="img/foto6.webp" alt="foto de pessoa" class="foto" width="54px"/>
-            </div>
-            <div class="notificacao_conteudo">
-            <p><span class="notificacao_nome">Bruno Pereira</span>reagiu ao seu post<span>5 estratégias de para vencer uma partida de xadrez</span></p>
-            <p>Há 2 semanas</p>
-            </div>
-        </section>
-        
-        <section class="notificacao">
-            <div>
-            <img src="img/foto7.webp" alt="foto de pessoa" class="foto" width="54px"/>
-            </div>
-            <div class="notificacao_conteudo">
-            <p><span class="notificacao_nome">Patricia Ferreira</span>saiu do grupo<span>Clube de Xadrez</span></p>
-            <p>Há 3 semanas</p>
+                <p><span class="notificacao_nome">Patricia Ferreira</span>
+                <span class="notificacao_reação">saiu do grupo</span>
+                <span class="notificacao_clube">Clube de Xadrez</span></p>
+            <p class="notificacao_tempo">Há 3 semanas</p>
             </div>
         </section>
     </main>
