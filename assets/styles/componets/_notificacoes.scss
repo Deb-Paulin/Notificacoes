@@ -1,0 +1,91 @@
+.notificacao {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 10px;
+    .foto {
+    display: flex;
+    align-items: center;
+    margin: 5px 0 5px 40px;
+    }
+    .foto_jose {
+    position: relative;
+    top: -36px;
+    margin: 5px 0 5px 40px;
+    }
+    }
+    .notificacao_xadrez {
+    display: flex;
+    gap: 16px;
+    align-items: center; 
+    .notificacao_container {
+    display: flex;
+    }
+    .foto_clarisse {
+    position: relative;
+    top: -27px;
+    margin: 5px 0 5px 48px;
+    }
+    .foto_xadrez {
+    position: relative;
+    left: 20rem;
+    top: -28px;
+    }
+    .notificacao_tempo-xadrez {
+    position: relative;
+    top: -2rem;
+    font-weight: 500;
+    color: var(--cinza);
+    }
+    }
+    .notificacao_recente {
+    background-color: var(--azul-claro);
+    border-radius: 8px;
+    margin: 10px 40px 10px 40px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 10px;
+    }
+    .notificacao_conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    top: -5px;
+    .notificacao_nome {
+    font-weight: 800;
+    color: var(--cinza-escuro);
+    padding-right: 8px;
+    }
+    .notificacao_reação {
+    font-weight: 500;
+    color: var(--cinza);
+    padding-right: 8px;
+    }
+    .notificacao_texto {
+        display: flex;
+        align-items: center;
+    color: var(--cinza-medio);
+    border: 1px soli var(--cinza);
+    margin: 0;
+    padding-bottom: 12px;
+    border: 1px solid #dde7ee;
+    border-radius: 4px;
+    padding: 16px 12px;
+    }
+    .notificacao_post {
+    font-weight: 800;
+    color: var(--cinza-medio);
+    }
+    .notificacao_clube {
+    font-weight: 800;
+    color: var(--azul);
+    }
+    .notificacao_tempo {
+    font-weight: 500;
+    color: var(--cinza);
+    margin: 0;
+    margin-top: -16px;
+    }
+}
